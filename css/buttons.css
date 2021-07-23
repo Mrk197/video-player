@@ -1,0 +1,34 @@
+/*button {
+    border: 10px solid rebeccapurple;
+}
+ */
+.button {
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;
+    background-color: transparent; /*unset, initial */
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+#play {
+    /*border: 10px solid #2f6669; */
+    background-image: url(../images/play.svg);
+}
+
+#pause {
+    background-image: url(../images/pause.svg);
+}
+
+#back {
+    background-image: url(../images/-10.svg);
+}
+
+#avanzar {
+    background-image: url(../images/+10.svg);
+}
